@@ -23,7 +23,7 @@ try {
             rule: ["or", [...query_list]]
         };
         try {
-            fs.writeFileSync(path.join("./dist/filter", `${filter.dir}.json`), JSON.stringify(joined_filter), "utf8");
+            fs.writeFileSync(path.join("./dist/filter", `${filter.dir}.json`), JSON.stringify(joined_filter, null, 4), "utf8");
         }
         catch (e) {
             console.log(e);
