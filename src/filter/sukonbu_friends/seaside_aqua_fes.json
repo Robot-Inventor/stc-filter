@@ -10,16 +10,18 @@
             },
             [
                 "and",
-                {
-                    "mode": "include",
-                    "type": "text",
-                    "string": "白上フブキ"
-                },
-                {
-                    "mode": "include",
-                    "type": "text",
-                    "string": "クビ"
-                }
+                [
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "白上フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "クビ"
+                    }
+                ]
             ]
         ]
     ]
