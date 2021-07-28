@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 try {
     const file_list = JSON.parse(fs.readFileSync("./src/filter/filter_list.json"));
+    const advanced_filter = {};
     file_list.filter.forEach((filter) => {
         const json_file_list = fs.readdirSync(path.join("./src/filter", filter.dir));
         let filter_content = [];
@@ -24,11 +25,20 @@ try {
         };
         try {
             fs.writeFileSync(path.join("./dist/filter", `${filter.dir}.json`), JSON.stringify(joined_filter, null, 4), "utf8");
+            advanced_filter[filter.name] = {
+                url: `https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/${filter.dir}.json`
+            };
         }
         catch (e) {
             console.log(e);
         }
     });
+    try {
+        fs.writeFileSync("./dist/advanced_filter.json", JSON.stringify(advanced_filter, null, 4), "utf8");
+    }
+    catch (e) {
+        console.log(e);
+    }
 }
 catch (e) {
     console.log(e);
