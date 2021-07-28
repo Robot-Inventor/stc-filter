@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "/^湊あくあ$/"
+            },
+            {
+                "mode": "exclude",
+                "type": "id",
+                "string": "@minatoaqua"
+            }
+        ]
+    ]
+}

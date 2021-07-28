@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "白上フブキ@ホロライブ"
+            },
+            {
+                "mode": "exclude",
+                "type": "id",
+                "string": "@shirakamifubuki"
+            }
+        ]
+    ]
+}

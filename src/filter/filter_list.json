@@ -3,6 +3,10 @@
         {
             "dir": "sukonbu_friends",
             "name": "Filter for sukonbu (friends)"
+        },
+        {
+            "dir": "holo_fan_general",
+            "name": "General filter for Holo fans"
         }
     ]
 }

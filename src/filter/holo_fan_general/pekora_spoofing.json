@@ -1,0 +1,22 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "兎田ぺこら"
+            },
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "ホロライブ"
+            },
+            {
+                "mode": "exclude",
+                "type": "id",
+                "string": "@usadapekora"
+            }
+        ]
+    ]
+}
