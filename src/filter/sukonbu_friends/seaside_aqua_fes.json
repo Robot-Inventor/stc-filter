@@ -1,0 +1,26 @@
+{
+    "description": "Filter to hide the mirror of Seaside Aqua Fes.",
+    "rule": [
+        "or",
+        [
+            {
+                "mode": "include",
+                "type": "link",
+                "string": "vk.com/videos637311121"
+            },
+            [
+                "and",
+                {
+                    "mode": "include",
+                    "type": "text",
+                    "string": "白上フブキ"
+                },
+                {
+                    "mode": "include",
+                    "type": "text",
+                    "string": "クビ"
+                }
+            ]
+        ]
+    ]
+}
