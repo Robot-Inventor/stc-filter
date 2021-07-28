@@ -1,0 +1,18 @@
+{
+    "description": "Filter to hide Shirakami Fubuki spoofing.",
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "白上フブキ@ホロライブ"
+            },
+            {
+                "mode": "exclude",
+                "type": "id",
+                "string": "@shirakamifubuki"
+            }
+        ]
+    ]
+}
