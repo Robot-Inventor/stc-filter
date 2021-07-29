@@ -14,15 +14,20 @@ interface query_element {
     string: string
 }
 
-type query_type = ["and" | "or", Array<query_element | query_type>];
+interface reason_type {
+    default: string,
+    [key: string]: string
+}
+
+type query_type = ["and" | "or", Array<query_element | query_type>, reason_type?];
 
 interface query_object {
     rule: query_type
 }
-
 interface maybe_query_object extends query_object {
     length?: number;
 }
+
 
 function lint_query_object(input: maybe_query_object): [true] | [false, string] {
     const is_object = typeof input === "object" && input.length === undefined;
@@ -44,8 +49,8 @@ function lint_query_type(input: query_type): [true] | [false, string] {
     const is_and_or = ["and", "or"].includes(input[0]);
     if (!is_and_or) return [false, "The first content of query_type must be \"and\" or \"or\"."];
 
-    const is_length_2 = input.length === 2;
-    if (!is_length_2) return [false, "Length of query_type must be 2."];
+    const is_length_2 = input.length === 2 || input.length === 3;
+    if (!is_length_2) return [false, "Length of query_type must be 2 or 3."];
 
     const is_second_value_array = typeof input[1] === "object" && input[1].length !== undefined;
     if (!is_second_value_array) return [false, "The second content of query_type must be an array."];
@@ -70,6 +75,13 @@ function lint_query_type(input: query_type): [true] | [false, string] {
     })();
     if (!is_type_of_second_value_right[0]) return is_type_of_second_value_right;
 
+    if (input.length === 3) {
+        if (input[2] === undefined) return [false, "The type of the third content of query_type must be object."];
+
+        const is_third_value_right = lint_reason_type(input[2]);
+        return is_third_value_right;
+    }
+
     return [true];
 }
 
@@ -91,6 +103,28 @@ function lint_query_element(input: query_element): [true] | [false, string] {
 
     const is_type_of_string_right = typeof input.string === "string";
     if (!is_type_of_string_right) return [false, "The type of string property of query_element must be string."];
+
+    return [true];
+}
+
+function lint_reason_type(input: reason_type): [true] | [false, string] {
+    const is_object = typeof input === "object" && input.length === undefined;
+    if (!is_object) return [false, "reason_type must be an object."];
+
+    const has_default_property = "default" in input;
+    if (!has_default_property) return [false, "reason_type must have default property."];
+
+    const is_type_of_default_right = typeof input.default === "string";
+    if (!is_type_of_default_right) return [false, "The type of the default property of reason_type must be string."];
+
+    const is_type_right = (() => {
+        let result = true;
+        Object.keys(input).forEach((key) => {
+            if (typeof input[key] !== "string") result = false;
+        });
+        return result;
+    })();
+    if (!is_type_right) return [false, "The types of the properties of reason_type must be string."];
 
     return [true];
 }
