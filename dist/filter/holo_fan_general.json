@@ -46,6 +46,30 @@
                     {
                         "mode": "include",
                         "type": "name",
+                        "string": "Kureiji Ollie"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "ホロライブ"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@kureijiollie"
+                    }
+                ],
+                {
+                    "default": "Ollie spoofing",
+                    "ja": "Kureiji Ollieのなりすまし"
+                }
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
                         "string": "兎田ぺこら"
                     },
                     {
