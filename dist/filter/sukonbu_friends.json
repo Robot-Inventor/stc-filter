@@ -23,6 +23,31 @@
                 ]
             ],
             [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#橋本大輝"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#橋本大辉"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
                 "or",
                 [
                     {
