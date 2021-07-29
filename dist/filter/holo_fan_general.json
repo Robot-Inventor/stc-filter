@@ -15,7 +15,11 @@
                         "type": "id",
                         "string": "@minatoaqua"
                     }
-                ]
+                ],
+                {
+                    "default": "Aqua spoofing",
+                    "ja": "湊あくあのなりすまし"
+                }
             ],
             [
                 "and",
@@ -30,7 +34,11 @@
                         "type": "id",
                         "string": "@shirakamifubuki"
                     }
-                ]
+                ],
+                {
+                    "default": "Fubuki spoofing",
+                    "ja": "白上フブキのなりすまし"
+                }
             ],
             [
                 "and",
@@ -50,7 +58,11 @@
                         "type": "id",
                         "string": "@usadapekora"
                     }
-                ]
+                ],
+                {
+                    "default": "Pekora spoofing",
+                    "ja": "兎田ぺこらのなりすまし"
+                }
             ]
         ]
     ]

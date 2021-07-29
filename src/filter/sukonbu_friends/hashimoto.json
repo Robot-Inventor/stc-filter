@@ -23,6 +23,10 @@
                     }
                 ]
             ]
-        ]
+        ],
+        {
+            "default": "Olympic-related trolling",
+            "ja": "オリンピック関連の荒らし"
+        }
     ]
 }

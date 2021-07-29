@@ -12,6 +12,10 @@
                 "type": "id",
                 "string": "@minatoaqua"
             }
-        ]
+        ],
+        {
+            "default": "Aqua spoofing",
+            "ja": "湊あくあのなりすまし"
+        }
     ]
 }

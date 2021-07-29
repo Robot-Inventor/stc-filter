@@ -20,7 +20,11 @@
                         "type": "hashtag",
                         "string": "#桐生ココ"
                     }
-                ]
+                ],
+                {
+                    "default": "general trolling against Fubuki",
+                    "ja": "白上フブキに対する一般的な荒らし"
+                }
             ],
             [
                 "and",
@@ -45,7 +49,11 @@
                             }
                         ]
                     ]
-                ]
+                ],
+                {
+                    "default": "Olympic-related trolling",
+                    "ja": "オリンピック関連の荒らし"
+                }
             ],
             [
                 "or",
@@ -70,7 +78,11 @@
                             }
                         ]
                     ]
-                ]
+                ],
+                {
+                    "default": "Seaside Aqua Fes illegal broadcast",
+                    "ja": "Seaside Aqua Fesの違法中継"
+                }
             ],
             [
                 "and",
@@ -85,7 +97,11 @@
                         "type": "id",
                         "string": "@shirakamifubuki"
                     }
-                ]
+                ],
+                {
+                    "default": "Fubuki spoofing",
+                    "ja": "白上フブキのなりすまし"
+                }
             ]
         ]
     ]

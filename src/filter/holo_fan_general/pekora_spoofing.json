@@ -17,6 +17,10 @@
                 "type": "id",
                 "string": "@usadapekora"
             }
-        ]
+        ],
+        {
+            "default": "Pekora spoofing",
+            "ja": "兎田ぺこらのなりすまし"
+        }
     ]
 }
