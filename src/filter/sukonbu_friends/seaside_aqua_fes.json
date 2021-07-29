@@ -23,6 +23,10 @@
                     }
                 ]
             ]
-        ]
+        ],
+        {
+            "default": "Seaside Aqua Fes illegal broadcast",
+            "ja": "Seaside Aqua Fesの違法中継"
+        }
     ]
 }
