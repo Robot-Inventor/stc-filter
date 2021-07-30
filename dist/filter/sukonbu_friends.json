@@ -75,35 +75,6 @@
                 }
             ],
             [
-                "or",
-                [
-                    {
-                        "mode": "include",
-                        "type": "link",
-                        "string": "vk.com/videos637311121"
-                    },
-                    [
-                        "and",
-                        [
-                            {
-                                "mode": "include",
-                                "type": "text",
-                                "string": "白上フブキ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "text",
-                                "string": "クビ"
-                            }
-                        ]
-                    ]
-                ],
-                {
-                    "default": "Seaside Aqua Fes illegal broadcast",
-                    "ja": "Seaside Aqua Fesの違法中継"
-                }
-            ],
-            [
                 "and",
                 [
                     {
