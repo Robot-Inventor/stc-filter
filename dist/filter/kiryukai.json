@@ -1,0 +1,36 @@
+{
+    "rule": [
+        "or",
+        [
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#橋本大輝"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#橋本大辉"
+                            }
+                        ]
+                    ]
+                ],
+                {
+                    "default": "Olympic-related trolling",
+                    "ja": "オリンピック関連の荒らし"
+                }
+            ]
+        ]
+    ]
+}

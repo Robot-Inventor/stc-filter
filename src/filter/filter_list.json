@@ -5,6 +5,10 @@
             "name": "Filter for sukonbu (friends)"
         },
         {
+            "dir": "kiryukai",
+            "name": "Filter for kiryukai"
+        },
+        {
             "dir": "holo_fan_general",
             "name": "General filter for Holo fans"
         }
