@@ -2,6 +2,9 @@
     "Filter for sukonbu (friends)": {
         "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/sukonbu_friends.json"
     },
+    "Filter for kiryukai": {
+        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/kiryukai.json"
+    },
     "General filter for Holo fans": {
         "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/holo_fan_general.json"
     }
