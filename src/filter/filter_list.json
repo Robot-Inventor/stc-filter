@@ -11,6 +11,10 @@
         {
             "dir": "holo_fan_general",
             "name": "General filter for Holo fans"
+        },
+        {
+            "dir": "filter_for_kson_fan",
+            "name": "Filter for Kson fans"
         }
     ]
 }

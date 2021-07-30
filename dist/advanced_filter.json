@@ -7,5 +7,8 @@
     },
     "General filter for Holo fans": {
         "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/holo_fan_general.json"
+    },
+    "Filter for Kson fans": {
+        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_kson_fan.json"
     }
 }

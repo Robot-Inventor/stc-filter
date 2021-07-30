@@ -1,0 +1,66 @@
+{
+    "rule": [
+        "or",
+        [
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "/ksonOnAir/i"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生会の食卓"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#ココここ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生会調理組"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#ホロぐら"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生会FOREVER"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#たつのこ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#みかじ絵"
+                            }
+                        ]
+                    ]
+                ],
+                {
+                    "default": "general trolling against Kson",
+                    "ja": "Ksonに対する一般的な荒らし"
+                }
+            ]
+        ]
+    ]
+}
