@@ -1,22 +1,57 @@
 {
     "rule": [
-        "and",
+        "or",
         [
-            {
-                "mode": "include",
-                "type": "hashtag",
-                "string": "#フブキch"
-            },
-            {
-                "mode": "include",
-                "type": "hashtag",
-                "string": "#白上フブキ"
-            },
-            {
-                "mode": "include",
-                "type": "hashtag",
-                "string": "#桐生ココ"
-            }
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#フブキch"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#すこん部"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#フブ切り"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#絵フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#フブキch"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    }
+                ]
+            ]
         ],
         {
             "default": "general trolling against Fubuki",
