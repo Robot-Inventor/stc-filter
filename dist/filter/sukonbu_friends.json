@@ -11,18 +11,28 @@
                             {
                                 "mode": "include",
                                 "type": "hashtag",
-                                "string": "#フブキch"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
                                 "string": "#白上フブキ"
                             },
                             {
                                 "mode": "include",
                                 "type": "hashtag",
                                 "string": "#桐生ココ"
-                            }
+                            },
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#フブキch"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#絵フブキ"
+                                    }
+                                ]
+                            ]
                         ]
                     ],
                     [
