@@ -45,6 +45,35 @@
                 [
                     {
                         "mode": "include",
+                        "type": "hashtag",
+                        "string": "#hololiveERROR"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
+                        ]
+                    ]
+                ],
+                {
+                    "default": "general trolling against hololive ERROR",
+                    "ja": "hololive ERRORに関する一般的な荒らし"
+                }
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
                         "type": "name",
                         "string": "Kureiji Ollie"
                     },
