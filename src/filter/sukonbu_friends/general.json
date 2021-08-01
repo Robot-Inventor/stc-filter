@@ -61,6 +61,41 @@
                         "string": "#白上フブキ"
                     }
                 ]
+            ],
+            [
+                "and",
+                [
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#絵フブキ"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "にますら"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "死了"
+                            }
+                        ]
+                    ]
+                ]
             ]
         ],
         {
