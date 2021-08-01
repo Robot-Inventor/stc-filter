@@ -1,0 +1,26 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#桐生ココ"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#白上フブキ"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#絵フブキ"
+            }
+        ],
+        {
+            "default": "general trolling against Coco",
+            "ja": "桐生ココに対する一般的な荒らし"
+        }
+    ]
+}
