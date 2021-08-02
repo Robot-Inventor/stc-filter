@@ -15,11 +15,7 @@
                         "type": "id",
                         "string": "@minatoaqua"
                     }
-                ],
-                {
-                    "default": "Aqua spoofing",
-                    "ja": "湊あくあのなりすまし"
-                }
+                ]
             ],
             [
                 "and",
@@ -34,11 +30,7 @@
                         "type": "id",
                         "string": "@shirakamifubuki"
                     }
-                ],
-                {
-                    "default": "Fubuki spoofing",
-                    "ja": "白上フブキのなりすまし"
-                }
+                ]
             ],
             [
                 "and",
@@ -58,11 +50,7 @@
                         "type": "hashtag",
                         "string": "#白上フブキ"
                     }
-                ],
-                {
-                    "default": "general trolling against hololive ALT",
-                    "ja": "hololive ALTに関する一般的な荒らし"
-                }
+                ]
             ],
             [
                 "and",
@@ -87,11 +75,7 @@
                             }
                         ]
                     ]
-                ],
-                {
-                    "default": "general trolling against hololive ERROR",
-                    "ja": "hololive ERRORに関する一般的な荒らし"
-                }
+                ]
             ],
             [
                 "and",
@@ -111,11 +95,7 @@
                         "type": "id",
                         "string": "@kureijiollie"
                     }
-                ],
-                {
-                    "default": "Ollie spoofing",
-                    "ja": "Kureiji Ollieのなりすまし"
-                }
+                ]
             ],
             [
                 "and",
@@ -135,11 +115,7 @@
                         "type": "id",
                         "string": "@usadapekora"
                     }
-                ],
-                {
-                    "default": "Pekora spoofing",
-                    "ja": "兎田ぺこらのなりすまし"
-                }
+                ]
             ]
         ]
     ]

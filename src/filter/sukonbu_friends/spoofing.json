@@ -13,10 +13,6 @@
                 "type": "id",
                 "string": "@shirakamifubuki"
             }
-        ],
-        {
-            "default": "Fubuki spoofing",
-            "ja": "白上フブキのなりすまし"
-        }
+        ]
     ]
 }
