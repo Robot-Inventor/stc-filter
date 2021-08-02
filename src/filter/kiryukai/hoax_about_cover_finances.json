@@ -13,10 +13,6 @@
                 "type": "text",
                 "string": "財務"
             }
-        ],
-        {
-            "default": "Hoax about COVER",
-            "ja": "COVERに関するデマ"
-        }
+        ]
     ]
 }

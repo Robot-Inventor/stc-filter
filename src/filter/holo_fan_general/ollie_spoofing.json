@@ -17,10 +17,6 @@
                 "type": "id",
                 "string": "@kureijiollie"
             }
-        ],
-        {
-            "default": "Ollie spoofing",
-            "ja": "Kureiji Ollieのなりすまし"
-        }
+        ]
     ]
 }

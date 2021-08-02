@@ -17,10 +17,6 @@
                 "type": "hashtag",
                 "string": "#白上フブキ"
             }
-        ],
-        {
-            "default": "general trolling against hololive ALT",
-            "ja": "hololive ALTに関する一般的な荒らし"
-        }
+        ]
     ]
 }
