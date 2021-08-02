@@ -99,6 +99,41 @@
                                 ]
                             ]
                         ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#savehololive"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#たつのこ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#フブキch"
+                            }
+                        ]
                     ]
                 ]
             ],
