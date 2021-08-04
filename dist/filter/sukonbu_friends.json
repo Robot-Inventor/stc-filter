@@ -182,6 +182,31 @@
                 [
                     {
                         "mode": "include",
+                        "type": "hashtag",
+                        "string": "#源子ノ05"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#ホロライブ"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
                         "type": "name",
                         "string": "白上フブキ@ホロライブ"
                     },
