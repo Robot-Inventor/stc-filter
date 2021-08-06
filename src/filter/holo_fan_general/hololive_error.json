@@ -1,19 +1,39 @@
 {
     "rule": [
-        "and",
+        "or",
         [
-            {
-                "mode": "include",
-                "type": "hashtag",
-                "string": "#hololiveERROR"
-            },
             [
-                "or",
+                "and",
                 [
                     {
                         "mode": "include",
                         "type": "hashtag",
-                        "string": "#桐生ココ"
+                        "string": "#hololiveERROR"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#みんなのERRORな噂話"
                     },
                     {
                         "mode": "include",
