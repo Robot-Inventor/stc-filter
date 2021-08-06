@@ -46,17 +46,7 @@
                             {
                                 "mode": "include",
                                 "type": "hashtag",
-                                "string": "#フブ切り"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
                                 "string": "#絵フブキ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#フブキch"
                             },
                             {
                                 "mode": "include",
@@ -134,6 +124,51 @@
                                 "string": "#フブキch"
                             }
                         ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "牛子"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "你"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "是"
+                                    },
+                                    [
+                                        "and",
+                                        [
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "我"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "的"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
                     ]
                 ]
             ],
@@ -175,31 +210,6 @@
                         "type": "text",
                         "string": "財務"
                     }
-                ]
-            ],
-            [
-                "and",
-                [
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#源子ノ05"
-                    },
-                    [
-                        "or",
-                        [
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#白上フブキ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#ホロライブ"
-                            }
-                        ]
-                    ]
                 ]
             ],
             [
