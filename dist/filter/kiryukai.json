@@ -69,6 +69,21 @@
                                 "string": "#フブキch"
                             }
                         ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/来[点店。、,]fo/"
+                            }
+                        ]
                     ]
                 ]
             ],
