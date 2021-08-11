@@ -232,6 +232,51 @@
                 [
                     {
                         "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "坦"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/NMSL/i"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "逼"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "屌"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/[蝗皇]/"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/[蛆狗]/"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
                         "type": "name",
                         "string": "白上フブキ@ホロライブ"
                     },

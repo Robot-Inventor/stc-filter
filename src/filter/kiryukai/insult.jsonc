@@ -1,0 +1,47 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#桐生ココ"
+            },
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "/NMSL/i"
+                        // お前の母親は死んだ
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "逼"
+                        // 女性器のスラング
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "屌"
+                        // 男性器のスラング
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "/[蝗皇]/"
+                        // 桐生ココへの侮蔑
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "/[蛆狗]/"
+                        // 動物へ例えての侮辱
+                    }
+                ]
+            ]
+        ]
+    ]
+}
