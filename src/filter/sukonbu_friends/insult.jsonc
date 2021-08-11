@@ -1,0 +1,27 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#白上フブキ"
+            },
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "坦"
+                        /*
+                            狐坦：侮辱
+                            坦：太った女
+                            坦克：タンクの様に太った女
+                        */
+                    }
+                ]
+            ]
+        ]
+    ]
+}
