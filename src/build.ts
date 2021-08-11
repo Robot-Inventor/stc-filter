@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { parse } = require("jsonc-parser");
 
 interface filter_list_type {
     filter: Array<{
@@ -100,7 +101,7 @@ function lint(input: query_object): [true] | [false, string] {
 }
 
 try {
-    const file_list: filter_list_type = JSON.parse(fs.readFileSync("./src/filter/filter_list.json"));
+    const file_list: filter_list_type = parse(fs.readFileSync("./src/filter/filter_list.json").toString());
     const advanced_filter: { [key: string]: { url: string } } = {};
     file_list.filter.forEach((filter) => {
         const json_file_list: Array<string> = fs.readdirSync(path.join("./src/filter", filter.dir));
@@ -110,7 +111,7 @@ try {
             try {
                 const file_path = path.join("./src/filter/", filter.dir, file_name)
                 const content = fs.readFileSync(file_path, "utf8");
-                const content_json: query_object = JSON.parse(content);
+                const content_json: query_object = parse(content.toString());
                 const lint_result = lint(content_json);
                 if (lint_result[0]) filter_content.push(content_json);
                 else {
