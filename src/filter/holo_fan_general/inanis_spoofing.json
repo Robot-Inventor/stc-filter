@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "/Ninomae Ina’?nis/i"
+            },
+            {
+                "mode": "exclude",
+                "type": "id",
+                "string": "@ninomaeinanis"
+            }
+        ]
+    ]
+}
