@@ -1,0 +1,412 @@
+{
+    "rule": [
+        "or",
+        [
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "youtu.be/UGIVUkv1ewI"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "youtu.be/watch?v=MryxcX51bbc"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "bilibili.com/video/BV1zg411j7FT"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "Yagooの悪夢 あの女"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "/^湊あくあ$/"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@minatoaqua"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#絵フブキ"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#たつのこ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#フブキch"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#savehololive"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#桐生ココ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#白上フブキ"
+                                    }
+                                ]
+                            ],
+                            [
+                                "or",
+                                [
+                                    [
+                                        "or",
+                                        [
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "牛子"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "你"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "是"
+                                            },
+                                            [
+                                                "and",
+                                                [
+                                                    {
+                                                        "mode": "include",
+                                                        "type": "text",
+                                                        "string": "我"
+                                                    },
+                                                    {
+                                                        "mode": "include",
+                                                        "type": "text",
+                                                        "string": "的"
+                                                    }
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "にますら"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "死了"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "/来[点店。、,]fo/"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ビタソイ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "shareholders"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "Narukami"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#鳴神裁"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "中共"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "鬥士"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "迫害"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "Afghanistan"
+                                    }
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "白上フブキ@ホロライブ"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@shirakamifubuki"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#hololiveALT"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#hololiveERROR"
+                            },
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#桐生ココ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#白上フブキ"
+                                    }
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#みんなのERRORな噂話"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "/Ninomae Ina’?nis/i"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@ninomaeinanis"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "坦"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/NMSL/i"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "逼"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "屌"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/[蝗皇]/"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/[蛆狗]/"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "Kureiji Ollie"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "ホロライブ"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@kureijiollie"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "兎田ぺこら"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "ホロライブ"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@usadapekora"
+                    }
+                ]
+            ]
+        ]
+    ]
+}

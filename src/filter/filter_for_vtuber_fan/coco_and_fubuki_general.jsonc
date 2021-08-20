@@ -1,0 +1,180 @@
+{
+    "rule": [
+        "or",
+        [
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#絵フブキ"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#たつのこ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#フブキch"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#savehololive"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "牛子"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "你"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "是"
+                                    },
+                                    [
+                                        "and",
+                                        [
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "我"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "的"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ],
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "にますら"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "死了"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/来[点店。、,]fo/"
+                            },
+                            {
+                                // 香港関連
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#ビタソイ"
+                            },
+                            {
+                                // 株主という意味。COVER関連のデマで使用
+                                "mode": "include",
+                                "type": "text",
+                                "string": "shareholders"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "Narukami"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#鳴神裁"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "中共"
+                            },
+                            {
+                                // 運動家という意味
+                                "mode": "include",
+                                "type": "text",
+                                "string": "鬥士"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "迫害"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "Afghanistan"
+                            }
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+}

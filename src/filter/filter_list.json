@@ -1,16 +1,8 @@
 {
     "filter": [
         {
-            "dir": "sukonbu_friends",
-            "name": "Filter for sukonbu (friends)"
-        },
-        {
-            "dir": "kiryukai",
-            "name": "Filter for kiryukai"
-        },
-        {
-            "dir": "holo_fan_general",
-            "name": "General filter for Holo fans"
+            "dir": "filter_for_vtuber_fan",
+            "name": "Filter for VTuber fans"
         },
         {
             "dir": "filter_for_kson_fan",
