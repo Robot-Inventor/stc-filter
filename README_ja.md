@@ -35,7 +35,7 @@ Spam Tweets Compressorはこのリポジトリー内の必要なデータをCDN�
 
 ### 3. JSONファイルを作成
 
-作成または編集したいフィルターのディレクトリーに、[高度なスパム判定について](https://github.com/Robot-Inventor/spam-tweets-compressor/blob/main/docs/ja/advanced_spam_detection.md)を参考にして任意のファイル名でJSONファイルを作成するか既存のJSONファイルを編集します。
+作成または編集したいフィルターのディレクトリーに、[高度なスパム判定について](https://github.com/Robot-Inventor/spam-tweets-compressor/blob/main/docs/ja/advanced_spam_detection.md)を参考にして任意のファイル名でJSONファイルまたはJSONCファイルを作成するか既存のJSONファイルを編集します。
 
 保守管理の観点から、内容ごとにJSONファイルを分割することをオススメします。作成するJSONファイルの個数やファイル名に指定はありません。
 
