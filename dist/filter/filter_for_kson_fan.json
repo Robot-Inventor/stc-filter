@@ -3,56 +3,86 @@
         "or",
         [
             [
-                "and",
+                "or",
                 [
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#ksonOnAir"
-                    },
                     [
-                        "or",
+                        "and",
                         [
                             {
                                 "mode": "include",
                                 "type": "hashtag",
-                                "string": "#桐生会の食卓"
+                                "string": "#kson"
                             },
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ビタソイ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "Afghanistan"
+                                    }
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
                             {
                                 "mode": "include",
                                 "type": "hashtag",
-                                "string": "#ココここ"
+                                "string": "#ksonOnAir"
                             },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#桐生会調理組"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#ホロぐら"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#桐生会FOREVER"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#桐生ココ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#たつのこ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#みかじ絵"
-                            }
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#桐生会の食卓"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ココここ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#桐生会調理組"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ホロぐら"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#桐生会FOREVER"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#桐生ココ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#たつのこ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#みかじ絵"
+                                    }
+                                ]
+                            ]
                         ]
                     ]
                 ]
