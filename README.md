@@ -35,7 +35,7 @@ Add the directory name and filter name to [src/filter/filter_list.json](https://
 
 ### 3. Create JSON Files
 
-In the directory of the filter you want to create or edit, create a JSON file with any file name or edit an existing JSON file with reference to [About Advanced Spam Detection](https://github.com/Robot-Inventor/spam-tweets-compressor/blob/main/docs/en/advanced_spam_detection.md).
+In the directory of the filter you want to create or edit, create a JSON file or JSONC file with any file name or edit an existing JSON file with reference to [About Advanced Spam Detection](https://github.com/Robot-Inventor/spam-tweets-compressor/blob/main/docs/en/advanced_spam_detection.md).
 
 From the perspective of maintenance management, we recommend splitting the JSON file by content. There is no specification for the number of JSON files to be created or their file names.
 
