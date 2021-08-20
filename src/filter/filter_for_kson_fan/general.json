@@ -5,7 +5,7 @@
             {
                 "mode": "include",
                 "type": "hashtag",
-                "string": "/ksonOnAir/i"
+                "string": "#ksonOnAir"
             },
             [
                 "or",
