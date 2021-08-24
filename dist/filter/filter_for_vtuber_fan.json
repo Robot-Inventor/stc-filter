@@ -63,41 +63,6 @@
                     [
                         "and",
                         [
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#白上フブキ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#たつのこ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#フブキch"
-                            }
-                        ]
-                    ],
-                    [
-                        "and",
-                        [
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#savehololive"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#白上フブキ"
-                            }
-                        ]
-                    ],
-                    [
-                        "and",
-                        [
                             [
                                 "or",
                                 [
@@ -117,40 +82,35 @@
                                 "or",
                                 [
                                     [
-                                        "or",
+                                        "and",
                                         [
                                             {
                                                 "mode": "include",
                                                 "type": "text",
-                                                "string": "牛子"
+                                                "string": "我"
                                             },
                                             {
                                                 "mode": "include",
                                                 "type": "text",
-                                                "string": "你"
-                                            },
-                                            {
-                                                "mode": "include",
-                                                "type": "text",
-                                                "string": "是"
-                                            },
-                                            [
-                                                "and",
-                                                [
-                                                    {
-                                                        "mode": "include",
-                                                        "type": "text",
-                                                        "string": "我"
-                                                    },
-                                                    {
-                                                        "mode": "include",
-                                                        "type": "text",
-                                                        "string": "的"
-                                                    }
-                                                ]
-                                            ]
+                                                "string": "的"
+                                            }
                                         ]
                                     ],
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "牛子"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "你"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "是"
+                                    },
                                     {
                                         "mode": "include",
                                         "type": "text",
@@ -208,6 +168,61 @@
                                     }
                                 ]
                             ]
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "🍍"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#たつのこ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#フブキch"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#savehololive"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            }
                         ]
                     ]
                 ]
