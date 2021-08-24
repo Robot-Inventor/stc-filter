@@ -5,7 +5,8 @@ const { parse } = require("jsonc-parser");
 interface filter_list_type {
     filter: Array<{
         dir: string,
-        name: string
+        name: string,
+        id: string;
     }>
 }
 
@@ -102,7 +103,7 @@ function lint(input: query_object): [true] | [false, string] {
 
 try {
     const file_list: filter_list_type = parse(fs.readFileSync("./src/filter/filter_list.json").toString());
-    const advanced_filter: { [key: string]: { url: string } } = {};
+    const advanced_filter: { [key: string]: { url: string, id: string } } = {};
     file_list.filter.forEach((filter) => {
         const json_file_list: Array<string> = fs.readdirSync(path.join("./src/filter", filter.dir));
         let filter_content: Array<query_object> = [];
@@ -132,7 +133,8 @@ try {
         try {
             fs.writeFileSync(path.join("./dist/filter", `${filter.dir}.json`), JSON.stringify(joined_filter, null, 4), "utf8");
             advanced_filter[filter.name] = {
-                url: `https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/${filter.dir}.json`
+                url: `https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/${filter.dir}.json`,
+                id: filter.id
             };
         } catch (e) {
             console.log(e);

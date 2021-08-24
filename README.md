@@ -27,7 +27,8 @@ Add the directory name and filter name to [src/filter/filter_list.json](https://
     "filter": [
         {
             "dir": "directory name",
-            "name": "filter name"
+            "name": "filter name",
+            "id": "ID that is set once and never changed"
         }
     ]
 }
