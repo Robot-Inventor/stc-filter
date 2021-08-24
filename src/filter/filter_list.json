@@ -2,11 +2,13 @@
     "filter": [
         {
             "dir": "filter_for_vtuber_fan",
-            "name": "Filter for VTuber fans"
+            "name": "Filter for VTuber fans",
+            "id": "vtuber"
         },
         {
             "dir": "filter_for_kson_fan",
-            "name": "Filter for Kson fans"
+            "name": "Filter for Kson fans",
+            "id": "kson"
         }
     ]
 }
