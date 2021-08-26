@@ -416,6 +416,26 @@
                         "string": "@usadapekora"
                     }
                 ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキはこの世で1番かわいい"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#フブキch"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "絵フブキ"
+                    }
+                ]
             ]
         ]
     ]
