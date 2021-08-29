@@ -1,0 +1,38 @@
+{
+    "description": "2021年10月の星街すいせいと角巻わためのライブの中継をブロックするフィルター",
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#わためソロライブ"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#かがやくほしまち"
+            },
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#ホロライブ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#hololive"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    }
+                ]
+            ]
+        ]
+    ]
+}
