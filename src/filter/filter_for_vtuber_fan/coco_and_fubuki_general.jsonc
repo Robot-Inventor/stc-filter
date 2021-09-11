@@ -56,11 +56,6 @@
                             {
                                 "mode": "include",
                                 "type": "text",
-                                "string": "牛子"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "text",
                                 "string": "你"
                             },
                             {
