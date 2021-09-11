@@ -6,6 +6,10 @@ This is the filter data for Advanced Spam Detection in [Robot-Inventor/spam-twee
 
 The Spam Tweets Compressor will retrieve the necessary data in this repository via CDN.
 
+## About Filters
+
+For an overview of filters and a description of each filter, see [Filter Description](docs/filter_description.md).
+
 ## Filter Format
 
 The filter data is in JSON format. For more information on the format, please refer to the [About Advanced Spam Detection](https://github.com/Robot-Inventor/spam-tweets-compressor/blob/main/docs/en/advanced_spam_detection.md) in the Spam Tweets Compressor repository.

@@ -6,6 +6,10 @@
 
 Spam Tweets Compressorはこのリポジトリー内の必要なデータをCDN経由で取得します。
 
+## フィルターについて
+
+フィルターに関する概要や、各フィルターの説明は[Filter Description](docs/filter_description.md)を参照してください。
+
 ## フィルターのフォーマット
 
 フィルターのデータはJSON形式です。詳しいフォーマットはSpam Tweets Compressorのリポジトリー内の[高度なスパム判定について](https://github.com/Robot-Inventor/spam-tweets-compressor/blob/main/docs/ja/advanced_spam_detection.md)を参照してください。
