@@ -8,23 +8,53 @@
                     {
                         "mode": "include",
                         "type": "link",
-                        "string": "youtu.be/UGIVUkv1ewI"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "link",
-                        "string": "youtu.be/watch?v=MryxcX51bbc"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "link",
                         "string": "bilibili.com/video/BV1zg411j7FT"
                     },
-                    {
-                        "mode": "include",
-                        "type": "text",
-                        "string": "Yagooの悪夢 あの女"
-                    }
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "link",
+                                "string": "youtu.be/MryxcX51bbc"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "【驚愕】桐生ココ引退の真相？黒幕は鳴神裁だと！？"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "link",
+                                "string": "youtu.be/UGIVUkv1ewI"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "Yagooの悪夢 あの女"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "link",
+                                "string": "youtu.be/TM7N33wFxHo"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "もるにゃう(白上フブキ)「数字に負けたくない」BOT使って同僚の低評価増やすのはお前だろう"
+                            }
+                        ]
+                    ]
                 ]
             ],
             [
