@@ -1,0 +1,27 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#止まらない桐生会ココで待ってる"
+            },
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上の重大発表"
+                    }
+                ]
+            ]
+        ]
+    ]
+}
