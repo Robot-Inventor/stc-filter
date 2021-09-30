@@ -11,39 +11,6 @@
             [
                 "or",
                 [
-                    // 【驚愕】桐生ココ引退の真相？黒幕は鳴神裁だと！？
-                    {
-                        "mode": "include",
-                        "type": "link",
-                        "string": "youtu.be/MryxcX51bbc"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "text",
-                        "string": "【驚愕】桐生ココ引退の真相？黒幕は鳴神裁だと！？"
-                    }
-                ]
-            ],
-            [
-                "or",
-                [
-                    // Yagooの悪夢 あの女
-                    {
-                        "mode": "include",
-                        "type": "link",
-                        "string": "youtu.be/UGIVUkv1ewI"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "text",
-                        "string": "Yagooの悪夢 あの女"
-                    }
-                ]
-            ],
-            [
-                "or",
-                [
-                    // もるにゃう(白上フブキ)「数字に負けたくない」BOT使って同僚の低評価増やすのはお前だろう
                     {
                         "mode": "include",
                         "type": "link",
@@ -53,6 +20,51 @@
                         "mode": "include",
                         "type": "text",
                         "string": "もるにゃう(白上フブキ)「数字に負けたくない」BOT使って同僚の低評価増やすのはお前だろう"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "youtu.be/4xlfX_9xboE"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "【驚愕】桐生ココ引退の真相？黒幕は鳴神裁だと！？Remaster"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "youtu.be/oi6YpdgaLWs"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "カバーが否定するものこそ信じていいもの"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "youtu.be/z4PaC374ScQ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "【視聴者参加型？】100人纪念！ANDYから皆へ重大なお知らせがあるらしい"
                     }
                 ]
             ]
