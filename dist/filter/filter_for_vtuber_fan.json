@@ -235,7 +235,22 @@
                                         "mode": "include",
                                         "type": "hashtag",
                                         "string": "#ksonART"
-                                    }
+                                    },
+                                    [
+                                        "and",
+                                        [
+                                            {
+                                                "mode": "include",
+                                                "type": "hashtag",
+                                                "string": "#ホロライブ"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "kson"
+                                            }
+                                        ]
+                                    ]
                                 ]
                             ]
                         ]
