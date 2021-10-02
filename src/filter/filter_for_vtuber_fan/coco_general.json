@@ -7,11 +7,21 @@
                 "type": "hashtag",
                 "string": "#桐生ココ"
             },
-            {
-                "mode": "include",
-                "type": "text",
-                "string": "🍍"
-            }
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "🍍"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#ksonART"
+                    }
+                ]
+            ]
         ]
     ]
 }
