@@ -213,28 +213,38 @@
                 ]
             ],
             [
-                "and",
+                "or",
                 [
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#桐生ココ"
-                    },
                     [
-                        "or",
+                        "and",
                         [
                             {
                                 "mode": "include",
-                                "type": "text",
-                                "string": "🍍"
-                            },
-                            {
-                                "mode": "include",
                                 "type": "hashtag",
-                                "string": "#ksonART"
-                            }
+                                "string": "#桐生ココ"
+                            },
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "🍍"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ksonART"
+                                    }
+                                ]
+                            ]
                         ]
-                    ]
+                    ],
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ用阿伟打技嘉"
+                    }
                 ]
             ],
             [
