@@ -420,6 +420,41 @@
             [
                 "and",
                 [
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#リトルウィッチノベタ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#LittleWitchNobeta"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#フブキch"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
                     {
                         "mode": "include",
                         "type": "name",
