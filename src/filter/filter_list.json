@@ -7,7 +7,7 @@
         },
         {
             "dir": "filter_for_kson_fan",
-            "name": "Filter for Kson fans",
+            "name": "Filter for kson fans",
             "id": "kson"
         }
     ]

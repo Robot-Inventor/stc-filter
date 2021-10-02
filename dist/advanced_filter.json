@@ -3,7 +3,7 @@
         "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_vtuber_fan.json",
         "id": "vtuber"
     },
-    "Filter for Kson fans": {
+    "Filter for kson fans": {
         "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_kson_fan.json",
         "id": "kson"
     }
