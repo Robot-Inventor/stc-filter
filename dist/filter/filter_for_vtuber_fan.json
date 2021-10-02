@@ -8,7 +8,7 @@
                     {
                         "mode": "include",
                         "type": "link",
-                        "string": "bilibili.com/video/BV1zg411j7FT"
+                        "string": "https://bilibili.com/video/BV1zg411j7FT"
                     },
                     [
                         "or",
@@ -16,7 +16,7 @@
                             {
                                 "mode": "include",
                                 "type": "link",
-                                "string": "youtu.be/TM7N33wFxHo"
+                                "string": "https://youtu.be/TM7N33wFxHo"
                             },
                             {
                                 "mode": "include",
@@ -31,7 +31,7 @@
                             {
                                 "mode": "include",
                                 "type": "link",
-                                "string": "youtu.be/4xlfX_9xboE"
+                                "string": "https://youtu.be/4xlfX_9xboE"
                             },
                             {
                                 "mode": "include",
@@ -46,7 +46,7 @@
                             {
                                 "mode": "include",
                                 "type": "link",
-                                "string": "youtu.be/oi6YpdgaLWs"
+                                "string": "https://youtu.be/oi6YpdgaLWs"
                             },
                             {
                                 "mode": "include",
@@ -61,12 +61,27 @@
                             {
                                 "mode": "include",
                                 "type": "link",
-                                "string": "youtu.be/z4PaC374ScQ"
+                                "string": "https://youtu.be/z4PaC374ScQ"
                             },
                             {
                                 "mode": "include",
                                 "type": "text",
                                 "string": "【視聴者参加型？】100人纪念！ANDYから皆へ重大なお知らせがあるらしい"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "link",
+                                "string": "https://youtu.be/ypuA3ED3SLU"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "Yagooの悪夢 あの女 Remaster"
                             }
                         ]
                     ]
@@ -213,17 +228,52 @@
                 ]
             ],
             [
-                "and",
+                "or",
                 [
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
+                            },
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "🍍"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ksonART"
+                                    },
+                                    [
+                                        "and",
+                                        [
+                                            {
+                                                "mode": "include",
+                                                "type": "hashtag",
+                                                "string": "#ホロライブ"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "text",
+                                                "string": "kson"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ],
                     {
                         "mode": "include",
                         "type": "hashtag",
-                        "string": "#桐生ココ"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "text",
-                        "string": "🍍"
+                        "string": "#桐生ココ用阿伟打技嘉"
                     }
                 ]
             ],
@@ -412,6 +462,41 @@
                                 "mode": "include",
                                 "type": "text",
                                 "string": "/[蛆狗]/"
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "and",
+                [
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#リトルウィッチノベタ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#LittleWitchNobeta"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#フブキch"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#桐生ココ"
                             }
                         ]
                     ]

@@ -1,16 +1,51 @@
 {
     "rule": [
-        "and",
+        "or",
         [
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "🍍"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#ksonART"
+                            },
+                            [
+                                "and",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ホロライブ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "kson"
+                                    }
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ],
             {
                 "mode": "include",
                 "type": "hashtag",
-                "string": "#桐生ココ"
-            },
-            {
-                "mode": "include",
-                "type": "text",
-                "string": "🍍"
+                "string": "#桐生ココ用阿伟打技嘉"
             }
         ]
     ]

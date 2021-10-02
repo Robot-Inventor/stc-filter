@@ -6,7 +6,7 @@
                 // Andy特种部队-猎狐犬小队宣传MV
                 "mode": "include",
                 "type": "link",
-                "string": "bilibili.com/video/BV1zg411j7FT"
+                "string": "https://bilibili.com/video/BV1zg411j7FT"
             },
             [
                 "or",
@@ -14,7 +14,7 @@
                     {
                         "mode": "include",
                         "type": "link",
-                        "string": "youtu.be/TM7N33wFxHo"
+                        "string": "https://youtu.be/TM7N33wFxHo"
                     },
                     {
                         "mode": "include",
@@ -29,7 +29,7 @@
                     {
                         "mode": "include",
                         "type": "link",
-                        "string": "youtu.be/4xlfX_9xboE"
+                        "string": "https://youtu.be/4xlfX_9xboE"
                     },
                     {
                         "mode": "include",
@@ -44,7 +44,7 @@
                     {
                         "mode": "include",
                         "type": "link",
-                        "string": "youtu.be/oi6YpdgaLWs"
+                        "string": "https://youtu.be/oi6YpdgaLWs"
                     },
                     {
                         "mode": "include",
@@ -59,12 +59,27 @@
                     {
                         "mode": "include",
                         "type": "link",
-                        "string": "youtu.be/z4PaC374ScQ"
+                        "string": "https://youtu.be/z4PaC374ScQ"
                     },
                     {
                         "mode": "include",
                         "type": "text",
                         "string": "【視聴者参加型？】100人纪念！ANDYから皆へ重大なお知らせがあるらしい"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "https://youtu.be/ypuA3ED3SLU"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "Yagooの悪夢 あの女 Remaster"
                     }
                 ]
             ]
