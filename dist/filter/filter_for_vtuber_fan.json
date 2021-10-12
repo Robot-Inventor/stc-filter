@@ -563,36 +563,56 @@
                 ]
             ],
             [
-                "and",
+                "or",
                 [
                     {
                         "mode": "include",
-                        "type": "hashtag",
-                        "string": "#わためソロライブ"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#かがやくほしまち"
+                        "type": "link",
+                        "string": "http://vk.com/videos637311121"
                     },
                     [
-                        "or",
+                        "and",
                         [
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#ホロライブ"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#hololive"
-                            },
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#白上フブキ"
-                            }
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#わためソロライブ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#かがやくほしまち"
+                                    }
+                                ]
+                            ],
+                            [
+                                "or",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#白上フブキ"
+                                    },
+                                    [
+                                        "and",
+                                        [
+                                            {
+                                                "mode": "include",
+                                                "type": "hashtag",
+                                                "string": "#ホロライブ"
+                                            },
+                                            {
+                                                "mode": "include",
+                                                "type": "hashtag",
+                                                "string": "#hololive"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ]
                         ]
                     ]
                 ]
