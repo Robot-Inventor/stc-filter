@@ -1,36 +1,56 @@
 {
-    "description": "2021年10月の星街すいせいと角巻わためのライブの中継をブロックするフィルター",
+    "description": "2021年10月の星街すいせいと角巻わための違法中継をブロックするフィルター。詳細は#98を参照",
     "rule": [
-        "and",
+        "or",
         [
             {
                 "mode": "include",
-                "type": "hashtag",
-                "string": "#わためソロライブ"
-            },
-            {
-                "mode": "include",
-                "type": "hashtag",
-                "string": "#かがやくほしまち"
+                "type": "link",
+                "string": "http://vk.com/videos637311121"
             },
             [
-                "or",
+                "and",
                 [
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#ホロライブ"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#hololive"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#白上フブキ"
-                    }
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#わためソロライブ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#かがやくほしまち"
+                            }
+                        ]
+                    ],
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            [
+                                "and",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ホロライブ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#hololive"
+                                    }
+                                ]
+                            ]
+                        ]
+                    ]
                 ]
             ]
         ]
