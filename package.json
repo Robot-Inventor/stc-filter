@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Robot-Inventor/stc-filter#readme",
   "dependencies": {
     "@types/node": "^16.9.6",
-    "glob": "^7.2.0",
     "jsonc-parser": "^3.0.0",
     "typescript": "^4.4.3"
   }
