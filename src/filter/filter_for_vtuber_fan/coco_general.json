@@ -15,11 +15,6 @@
                         [
                             {
                                 "mode": "include",
-                                "type": "text",
-                                "string": "🍍"
-                            },
-                            {
-                                "mode": "include",
                                 "type": "hashtag",
                                 "string": "#ksonART"
                             },
@@ -37,7 +32,37 @@
                                         "string": "kson"
                                     }
                                 ]
-                            ]
+                            ],
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "白上吹雪"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "Sunimo"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "yayo"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "身体"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "李赣"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "在"
+                            }
                         ]
                     ]
                 ]
