@@ -62,6 +62,16 @@
                                 "mode": "include",
                                 "type": "text",
                                 "string": "在"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "马"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "不喜欢"
                             }
                         ]
                     ]
