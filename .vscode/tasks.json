@@ -15,6 +15,13 @@
 			"problemMatcher": [],
 			"label": "npm: build",
 			"detail": "node ./dist/build.js"
+		},
+		{
+			"type": "npm",
+			"script": "lint",
+			"problemMatcher": [],
+			"label": "npm: lint",
+			"detail": "npx eslint src/**/*.ts"
 		}
 	]
 }

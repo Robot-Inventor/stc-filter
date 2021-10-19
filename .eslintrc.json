@@ -1,0 +1,67 @@
+{
+    "root": true,
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2021,
+        "project": [
+            "./tsconfig.eslint.json"
+        ]
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:all",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "prettier"
+    ],
+    "rules": {
+        "semi": "error",
+        "camelcase": 0,
+        "one-var": [
+            "error",
+            "never"
+        ],
+        "lines-between-class-members": [
+            "error",
+            "always",
+            {
+                "exceptAfterSingleLine": true
+            }
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "warn",
+                    "error"
+                ]
+            }
+        ],
+        "no-new": 0,
+        "no-else-return": 0,
+        "no-ternary": 0,
+        "max-statements": [
+            "error",
+            20
+        ],
+        "no-magic-numbers": [
+            "error",
+            {
+                "ignoreArrayIndexes": true
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "no-void": 0,
+        "@typescript-eslint/no-var-requires": 0
+    }
+}
