@@ -133,7 +133,7 @@ try {
         try {
             fs.writeFileSync(path.join("./dist/filter", `${filter.dir}.json`), JSON.stringify(joined_filter, null, 4), "utf8");
             advanced_filter[filter.name] = {
-                url: `https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/${filter.dir}.json`,
+                url: `https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/${filter.dir}.json?dev=1`,
                 id: filter.id
             };
         } catch (e) {
