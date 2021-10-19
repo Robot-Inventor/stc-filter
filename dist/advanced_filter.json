@@ -1,10 +1,10 @@
 {
     "Filter for VTuber fans": {
-        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_vtuber_fan.json?dev=1",
-        "id": "vtuber"
+        "id": "vtuber",
+        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_vtuber_fan.json?dev=1"
     },
     "Filter for kson fans": {
-        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_kson_fan.json?dev=1",
-        "id": "kson"
+        "id": "kson",
+        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_kson_fan.json?dev=1"
     }
 }
