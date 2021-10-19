@@ -1,29 +1,14 @@
 {
     "rule": [
-        "or",
+        "and",
         [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#白上フブキ"
+            },
             [
-                "and",
-                [
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#白上フブキ"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#たつのこ"
-                    },
-                    {
-                        "mode": "include",
-                        "type": "hashtag",
-                        "string": "#フブキch"
-                    }
-                ]
-            ],
-            [
-                "and",
+                "or",
                 [
                     {
                         "mode": "include",
@@ -32,9 +17,29 @@
                     },
                     {
                         "mode": "include",
-                        "type": "hashtag",
-                        "string": "#白上フブキ"
-                    }
+                        "type": "text",
+                        "string": "泥棒"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "差別"
+                    },
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#たつのこ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#フブキch"
+                            }
+                        ]
+                    ]
                 ]
             ]
         ]
