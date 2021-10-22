@@ -120,6 +120,11 @@
                                 "mode": "include",
                                 "type": "text",
                                 "string": "Afghanistan"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "杏奴"
                             }
                         ]
                     ]

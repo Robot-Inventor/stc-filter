@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#祭絵"
+            },
+            {
+                "mode": "include",
+                "type": "text",
+                "string": "みんなからの匿名質問を募集中"
+            }
+        ]
+    ]
+}
