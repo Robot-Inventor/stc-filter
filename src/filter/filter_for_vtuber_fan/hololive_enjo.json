@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "ホロライブ"
+            },
+            {
+                "mode": "include",
+                "type": "name",
+                "string": "炎上"
+            }
+        ]
+    ]
+}
