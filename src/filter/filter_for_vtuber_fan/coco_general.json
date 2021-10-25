@@ -13,11 +13,6 @@
                     [
                         "or",
                         [
-                            {
-                                "mode": "include",
-                                "type": "hashtag",
-                                "string": "#ksonART"
-                            },
                             [
                                 "and",
                                 [
@@ -33,6 +28,46 @@
                                     }
                                 ]
                             ],
+                            [
+                                "and",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#ココここ"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "hashtag",
+                                        "string": "#みかじ絵"
+                                    },
+                                    {
+                                        "mode": "exclude",
+                                        "type": "hashtag",
+                                        "string": "#桐生会"
+                                    },
+                                    {
+                                        "mode": "exclude",
+                                        "type": "hashtag",
+                                        "string": "#kiryuCoco"
+                                    },
+                                    {
+                                        "mode": "exclude",
+                                        "type": "hashtag",
+                                        "string": "#桐生会FOREVER"
+                                    },
+                                    {
+                                        "mode": "exclude",
+                                        "type": "text",
+                                        "string": "切り抜き"
+                                    }
+                                ]
+                            ],
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#ksonART"
+                            },
                             {
                                 "mode": "include",
                                 "type": "text",
