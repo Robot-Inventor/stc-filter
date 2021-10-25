@@ -20,6 +20,26 @@
             [
                 "and",
                 [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#絵フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#フブキch"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
                     [
                         "or",
                         [
