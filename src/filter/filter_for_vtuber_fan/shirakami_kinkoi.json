@@ -1,0 +1,22 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#白上フブキ金コイ耐久"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#絵フブキ"
+            },
+            {
+                "mode": "include",
+                "type": "text",
+                "string": "个"
+            }
+        ]
+    ]
+}
