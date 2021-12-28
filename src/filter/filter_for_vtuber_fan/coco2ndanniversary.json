@@ -1,0 +1,27 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#桐生ココ2周年"
+            },
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#白上フブキ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "/(.*?\n){5,}/"
+                    }
+                ]
+            ]
+        ]
+    ]
+}
