@@ -16,6 +16,11 @@
                         "mode": "include",
                         "type": "link",
                         "string": "/https://vk\\.com/video.*?637311121.*?/"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "link",
+                        "string": "/https://vk\\.com/video.*?681972863.*?/"
                     }
                 ]
             ]
