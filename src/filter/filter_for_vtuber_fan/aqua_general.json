@@ -1,0 +1,12 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#湊あくあ支那姫"
+            }
+        ]
+    ]
+}

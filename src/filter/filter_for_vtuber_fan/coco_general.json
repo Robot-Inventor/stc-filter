@@ -116,7 +116,42 @@
                 "mode": "include",
                 "type": "hashtag",
                 "string": "#桐生ココ用阿伟打技嘉"
-            }
+            },
+            [
+                "or",
+                [
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "name",
+                                "string": "coco"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "name",
+                                "string": "gachi"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "id",
+                                "string": "coco"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "id",
+                                "string": "gachi"
+                            }
+                        ]
+                    ]
+                ]
+            ]
         ]
     ]
 }

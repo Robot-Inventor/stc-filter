@@ -27,6 +27,16 @@
                 [
                     {
                         "mode": "include",
+                        "type": "hashtag",
+                        "string": "#湊あくあ支那姫"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
                         "type": "name",
                         "string": "/^湊あくあ$/"
                     },
@@ -35,6 +45,31 @@
                         "type": "id",
                         "string": "@minatoaqua"
                     }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#桐生ココ2周年"
+                    },
+                    [
+                        "or",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "hashtag",
+                                "string": "#白上フブキ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "/(.*?\n){5,}/"
+                            }
+                        ]
+                    ]
                 ]
             ],
             [
@@ -304,7 +339,42 @@
                         "mode": "include",
                         "type": "hashtag",
                         "string": "#桐生ココ用阿伟打技嘉"
-                    }
+                    },
+                    [
+                        "or",
+                        [
+                            [
+                                "and",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "name",
+                                        "string": "coco"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "name",
+                                        "string": "gachi"
+                                    }
+                                ]
+                            ],
+                            [
+                                "and",
+                                [
+                                    {
+                                        "mode": "include",
+                                        "type": "id",
+                                        "string": "coco"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "id",
+                                        "string": "gachi"
+                                    }
+                                ]
+                            ]
+                        ]
+                    ]
                 ]
             ],
             [
