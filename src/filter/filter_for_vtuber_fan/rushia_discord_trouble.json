@@ -67,16 +67,11 @@
                             {
                                 "mode": "include",
                                 "type": "text",
-<<<<<<< Updated upstream
                                 "string": "探偵"
-=======
-                                "string": "通知"
->>>>>>> Stashed changes
                             },
                             {
                                 "mode": "include",
                                 "type": "text",
-<<<<<<< Updated upstream
                                 "string": "ホロライブ"
                             }
                         ]
@@ -93,9 +88,21 @@
                                 "mode": "include",
                                 "type": "text",
                                 "string": "紅白"
-=======
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "通知"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
                                 "string": "無理"
->>>>>>> Stashed changes
                             }
                         ]
                     ]
