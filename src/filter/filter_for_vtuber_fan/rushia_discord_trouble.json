@@ -105,6 +105,36 @@
                                 "string": "無理"
                             }
                         ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "一緒"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "子供"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "豚"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "32歳"
+                            }
+                        ]
                     ]
                 ]
             ]
