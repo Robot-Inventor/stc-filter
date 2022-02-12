@@ -1,0 +1,63 @@
+{
+    "description": "Filter for copy-and-paste spam about Rushia's Discord notification trouble (since:2022-02-10JST)",
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "text",
+                "string": "るしあ"
+            },
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "殴る"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "999999Hz"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "筐体"
+                    },
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "帰る"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "うるせえ"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "配信終了"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "イケボ"
+                            }
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+}
