@@ -26,6 +26,11 @@
                         "type": "text",
                         "string": "筐体"
                     },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "早く返信"
+                    },
                     [
                         "and",
                         [
@@ -53,6 +58,36 @@
                                 "mode": "include",
                                 "type": "text",
                                 "string": "イケボ"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "探偵"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "ホロライブ"
+                            }
+                        ]
+                    ],
+                    [
+                        "and",
+                        [
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "イライラ"
+                            },
+                            {
+                                "mode": "include",
+                                "type": "text",
+                                "string": "紅白"
                             }
                         ]
                     ]
