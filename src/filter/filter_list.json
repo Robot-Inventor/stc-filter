@@ -9,6 +9,11 @@
             "dir": "filter_for_kson_fan",
             "name": "Filter for kson fans",
             "id": "kson"
+        },
+        {
+            "dir": "filter_for_mikeneko_fan",
+            "name": "Filter for Mikeneko fans",
+            "id": "mikeneko"
         }
     ]
 }
