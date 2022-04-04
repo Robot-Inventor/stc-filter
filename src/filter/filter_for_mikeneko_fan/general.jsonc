@@ -1,0 +1,38 @@
+{
+    "rule": [
+        "or",
+        [
+            // なりすまし
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "name",
+                        "string": "みけねこ"
+                    },
+                    {
+                        "mode": "exclude",
+                        "type": "id",
+                        "string": "@95rn16"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#みけねこ"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#まふまふ"
+                    }
+                ]
+            ]
+        ]
+    ]
+}
