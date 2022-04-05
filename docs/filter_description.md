@@ -12,6 +12,12 @@ Also, all filters are unofficial. They are not directly associated with any part
 
 ----------
 
+## Filter for Mikeneko fans
+
+配信者の[みけねこ](https://twitter.com/95rn16)さんに対する継続的な荒らしや誹謗中傷、なりすましなどを非表示にします。精度はあまり高くありません。
+
+Hides ongoing trolling, slander, and spoofing against a streamer [みけねこ (Mikeneko)](https://twitter.com/95rn16). The accuracy is not very high.
+
 ## Filter for VTuber fans
 
 主にVTuberに対するスパムを非表示にします。一時的な誹謗中傷や荒らしではなく、継続的なものを対象にしています。
