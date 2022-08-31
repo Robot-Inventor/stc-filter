@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Robot-Inventor/stc-filter#readme",
   "dependencies": {
-    "jsonc-parser": "^3.0.0"
+    "jsonc-parser": "^3.1.0"
   },
   "devDependencies": {
     "@types/node": "16.11.32",
