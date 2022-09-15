@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#マシュマロを投げ合おう"
+            },
+            {
+                "mode": "include",
+                "type": "text",
+                "string": "匿名のメッセージを募集中"
+            }
+        ]
+    ]
+}

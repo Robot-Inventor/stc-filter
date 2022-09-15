@@ -1,0 +1,37 @@
+{
+    "rule": [
+        "or",
+        [
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#マシュマロを投げ合おう"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "text",
+                        "string": "匿名のメッセージを募集中"
+                    }
+                ]
+            ],
+            [
+                "and",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#質問箱"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#匿名質問募集中"
+                    }
+                ]
+            ]
+        ]
+    ]
+}

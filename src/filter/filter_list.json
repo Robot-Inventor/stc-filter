@@ -14,6 +14,11 @@
             "dir": "filter_for_mikeneko_fan",
             "name": "Filter for Mikeneko fans",
             "id": "mikeneko"
+        },
+        {
+            "dir": "asking_questions_filter_ja",
+            "name": "質問募集フィルター（日本語版）",
+            "id": "asking_questions_ja"
         }
     ]
 }

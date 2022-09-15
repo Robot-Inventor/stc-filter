@@ -10,5 +10,9 @@
     "Filter for Mikeneko fans": {
         "id": "mikeneko",
         "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/filter_for_mikeneko_fan.json?dev=1"
+    },
+    "質問募集フィルター（日本語版）": {
+        "id": "asking_questions_ja",
+        "url": "https://cdn.statically.io/gh/Robot-Inventor/stc-filter/main/dist/filter/asking_questions_filter_ja.json?dev=1"
     }
 }
