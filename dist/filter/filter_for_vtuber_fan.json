@@ -335,6 +335,11 @@
                                         "mode": "include",
                                         "type": "text",
                                         "string": "不喜欢"
+                                    },
+                                    {
+                                        "mode": "include",
+                                        "type": "text",
+                                        "string": "参戦ID"
                                     }
                                 ]
                             ]
