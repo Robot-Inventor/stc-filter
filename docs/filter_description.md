@@ -29,3 +29,10 @@ Hides spam, mainly against VTubers. This is not for temporary slander or trollin
 配信者の[kson](https://twitter.com/ksononair)さんに対する継続的な荒らしを非表示にします。現時点では精度はあまり高くありません。
 
 Hides continuous trolling against [kson](https://twitter.com/ksononair), a streamer. Accuracy is not very high at this time.
+
+## 質問募集フィルター（日本語版）
+
+質問の募集ツイートを非表示にします。質問の回答は非表示にしません。現時点では次のサービスによる質問募集ツイートを非表示にします。
+
+- マシュマロ
+- 質問箱

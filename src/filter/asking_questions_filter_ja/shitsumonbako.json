@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "and",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#質問箱"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#匿名質問募集中"
+            }
+        ]
+    ]
+}
