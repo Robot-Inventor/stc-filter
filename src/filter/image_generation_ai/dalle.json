@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "or",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#dalle"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#dalle2"
+            }
+        ]
+    ]
+}

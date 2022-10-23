@@ -1,0 +1,102 @@
+{
+    "rule": [
+        "or",
+        [
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#dalle"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#dalle2"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#AIArt"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#AIArtWork"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#AIイラスト"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#Midjourney"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#NovelAI"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#NovelAIDiffusion"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#StableDiffusion"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#StableDiffusionKawaii"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#StableDiffusionWaifu"
+                    },
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#StableDiffusionArt"
+                    }
+                ]
+            ],
+            [
+                "or",
+                [
+                    {
+                        "mode": "include",
+                        "type": "hashtag",
+                        "string": "#WaifuDiffusion"
+                    }
+                ]
+            ]
+        ]
+    ]
+}

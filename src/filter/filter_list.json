@@ -19,6 +19,11 @@
             "dir": "asking_questions_filter_ja",
             "name": "質問募集フィルター（日本語版）",
             "id": "asking_questions_ja"
+        },
+        {
+            "dir": "image_generation_ai",
+            "name": "Image Generation AI Filter",
+            "id": "image_generation_ai"
         }
     ]
 }

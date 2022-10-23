@@ -1,0 +1,17 @@
+{
+    "rule": [
+        "or",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#NovelAI"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#NovelAIDiffusion"
+            }
+        ]
+    ]
+}

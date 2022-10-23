@@ -1,0 +1,22 @@
+{
+    "rule": [
+        "or",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#AIArt"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#AIArtWork"
+            },
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#AIイラスト"
+            }
+        ]
+    ]
+}
