@@ -1,0 +1,12 @@
+{
+    "rule": [
+        "or",
+        [
+            {
+                "mode": "include",
+                "type": "hashtag",
+                "string": "#Midjourney"
+            }
+        ]
+    ]
+}

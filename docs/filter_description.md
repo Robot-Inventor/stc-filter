@@ -36,3 +36,23 @@ Hides continuous trolling against [kson](https://twitter.com/ksononair), a strea
 
 - マシュマロ
 - 質問箱
+
+## Image Generation AI Filter
+
+画像生成AIやイラスト生成AIのハッシュタグを含むツイートを非表示にします。現時点では、次のハッシュタグに対応しています。
+
+Hides tweets containing image-generating AI or illustration-generating AI hashtags. Currently, the following hashtags are supported.
+
+- #AIArt
+- #AIArtWork
+- #AIイラスト
+- #dalle
+- #dalle2
+- #Midjourney
+- #NovelAI
+- #NovelAIDiffusion
+- #StableDiffusion
+- #StableDiffusionArt
+- #StableDiffusionKawaii
+- #StableDiffusionWaifu
+- #WaifuDiffusion
